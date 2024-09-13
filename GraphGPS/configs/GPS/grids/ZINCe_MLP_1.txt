@@ -1,0 +1,16 @@
+# Format for each row: name in config.py; alias; range to search
+# No spaces, except between these 3 fields
+# Line breaks are used to union different grid search spaces
+# Feel free to add '#' to add comments
+
+# Config edits (run with zinc-MLP.yaml)
+wandb.project project ['ZINCe_MLP_gridtest']
+
+
+# Grid Search Space
+mlp.layers node_depth [2,4,6,8]
+mlp.dim_hidden node_width [32, 64, 128, 256, 512]
+mlp.edge_encoder.layers edge_depth [2,4,6,8]
+mlp.edge_encoder.dim_hidden edge_width [32, 64, 128, 256, 512]
+mlp.graph_encoder.layers graph_depth [2,4,6,8]
+mlp.graph_encoder.dim_hidden graph_width [32, 64, 128, 256, 512]
