@@ -5,7 +5,6 @@ wandb:
   use: True
   project: ZINC_treehom
   group: SAwl-hc_repeats
-  entity: linusbao
 dataset:
   format: PyG-ZINC-Spasm+WLtree
   name: subset

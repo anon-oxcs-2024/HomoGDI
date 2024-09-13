@@ -5,7 +5,6 @@ wandb:
   use: True
   project: ZINC_MLPpehc_1
   group: run_repeats
-  entity: linusbao
 dataset:
   format: PyG-ZINC-Spasm
   name: subset

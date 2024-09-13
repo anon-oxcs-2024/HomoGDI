@@ -4,7 +4,6 @@ metric_agg: argmin
 wandb:
   use: True
   project: ZINC_GPSbig_1
-  entity: linusbao
 dataset:
   format: PyG-ZINC-Spasm
   name: subset

@@ -5,7 +5,6 @@ wandb:
   use: True
   project: test
   group: new_ssh
-  entity: linusbao
 dataset:
   format: PyG-ZINC-Spasm
   name: subset

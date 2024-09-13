@@ -6,7 +6,6 @@ wandb:
   use: True
   project: QM9_SA_1
   group: test
-  entity: linusbao
 dataset:
   format: EmJ-QM9
   name: GAP #for one task tests

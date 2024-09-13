@@ -6,7 +6,6 @@ wandb:
   use: True
   project: QM9_GPS2
   group: x
-  entity: linusbao
 dataset:
   format: EmJ-QM9
   name: x
