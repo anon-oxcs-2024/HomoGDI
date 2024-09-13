@@ -32,7 +32,7 @@ To set up data for WLhom experiments on ZINC, unzip the aforementioned `zinc-dat
 To set up the data necessary for Hom experiments on QM9, unzip the file `hombasis-gt/qm9/data/QM9/v5_homcounts.zip`, and move the resulting files (`test_homcounts.json`, `train_homcounts.json`, `valid_homcounts.json`) into the `hombasis-gt/qm9/data/QM9` directory. Then, run the python script `hombasis-gt/qm9/data_GraphGym_QM9/save_qm9_hc.py` in order to process the count-enhanced QM9 dataset (will be saved as `datasets/QM9-GraphHC/processed/joined.pt`). It may take a few minutes for `save_qm9_hc.py` to run.
 
 ## Running Experiments
-To run an experiment, set up a `configuration.yaml` file containing the model hyperparameters and experimental setup such as those given in the `GraphGPS/configs/GPS` directory. Then, run:
+To run an experiment, set up a `configuration.yaml` file containing the model hyperparameters and experimental setup such as those given in the `GraphGPS/configs/HomGRL/` directory. Then, run:
 
 ```bash
 python GraphGPS/main.py --cfg "/path_to/configuration.yaml" --repeat 1 wandb.use True
