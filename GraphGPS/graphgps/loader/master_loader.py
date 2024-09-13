@@ -35,7 +35,6 @@ from data import get_data
 
 sys.path.append(os.path.join(Path(__file__).parent.parent.parent.parent, 'hombasis-gt','qm9','data_GraphGym_QM9'))
 from CustomDataset import CustomDataset
-#/slurm-storage/linbao/thesis_code_1/hombasis-gt/qm9/data_GraphGym_QM9/CustomDataset.py
 
 
 def log_loaded_dataset(dataset, format, name):
